@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((userCredential) => {
         const user = userCredential.user;
         alert("Logged In!");
-        window.location.href = "./voageverse.html";
+        window.location.href = "../index.html";
       })
       .catch((error) => {
         const errorMessage = error.message;
